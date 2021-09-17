@@ -47,8 +47,8 @@ class DataHandler:
         
         plt.plot(my_choosen_country1.people_fully_vaccinated / 10**4, my_choosen_country1.people_vaccinated / 10**4, label= self.country1)
         plt.plot(my_choosen_country2.people_fully_vaccinated / 10**4, my_choosen_country2.people_vaccinated / 10**4, label= self.country2)
-        plt.xlabel('Number of vaccinated people in thousand')
-        plt.ylabel('Number of fully vaccinated people in thousand')
+        plt.xlabel('Number of fully vaccinated people in thousand')
+        plt.ylabel('Number of vaccinated people in thousand')
         plt.legend()
         plt.show()
     
