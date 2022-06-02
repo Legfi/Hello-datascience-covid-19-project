@@ -14,10 +14,9 @@ class DataHandler:
             country2 ([str]): [second atribute of DataHandler]
         """
         
-        self.my_data = pd.read_csv('~/Desktop/Data science/Project2/01_inlamningsuppgift_2_data.csv')
+        self.my_data = pd.read_csv('01_inlamningsuppgift_2_data.csv')
         self.my_data = self.my_data[['country','people_vaccinated', 'daily_vaccinations', 'people_fully_vaccinated',]]
         self.my_data_clean = self.my_data.dropna()
-        
         self.country1 = country1
         self.country2 = country2
         self._total()

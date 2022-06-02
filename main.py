@@ -1,6 +1,4 @@
-
-
-
+# Imports
 from DataHandler import DataHandler
 import argparse
 
