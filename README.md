@@ -16,7 +16,9 @@ or command prompt
 
 https://www.educative.io/edpresso/how-to-clone-a-git-repository-using-the-command-line
 
-2.write the code below at your command prompt : python main.py
+2.write the code below at your command prompt : 
+
+python main.py
 
 ## instructions
 This program will start with asking user to input two country which they want to compare and gives them alternative of choosing if they want to know informations about daily
