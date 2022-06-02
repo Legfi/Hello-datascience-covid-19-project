@@ -16,15 +16,17 @@ or command prompt
 
 https://www.educative.io/edpresso/how-to-clone-a-git-repository-using-the-command-line
 
-2.write the code below at your command prompt : 
+2.write the code below at your command prompt (This is only an example you can alwayse change the name of countries): 
 
-python main.py
+python main.py --country1 Sweden --country2 germany --daily
 
 ## instructions
 This program will start with asking user to input two country which they want to compare and gives them alternative of choosing if they want to know informations about daily
-vaccinations using the key world 'daily' or if they want information about the number of full vaccinated people using the key wolrd 'full'.
+vaccinations using the key word 'daily' or if they want information about the number of full vaccinated people using the key word 'full'.
 Each time the program runs it shows the avrage of daily vacination and the number of full vaccinated people in those countrys which user asked for. Beside these information
 user will be able to see everything on a diagram.
+
+One of the poruse of this project was to learn how to use argparse and thats why you need to write it in your code to launch the program.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
